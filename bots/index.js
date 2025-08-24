@@ -3,6 +3,7 @@ import { Telegraf } from 'telegraf';
 import club from './club.js';
 import deal from './deal.js';
 import treasury from './treasury.js';
+import arbiter from './arbiter.js';
 
 function maybeStart(token, name, init) {
   if (!token) { console.log(`[bots] ${name}: TOKEN not set — skipped`); return; }
@@ -15,7 +16,7 @@ function maybeStart(token, name, init) {
 maybeStart(process.env.TG_CLUB_BOT_TOKEN, 'ClubGateBot', club);
 maybeStart(process.env.TG_DEAL_BOT_TOKEN, 'DealDeskBot', deal);
 maybeStart(process.env.TG_TREASURY_BOT_TOKEN, 'TreasuryBot', treasury);
+maybeStart(process.env.TG_ARBITER_BOT_TOKEN, 'ArbiterDeskBot', arbiter);
 
-// корректное завершение
 process.once('SIGINT', () => process.exit(0));
 process.once('SIGTERM', () => process.exit(0));
