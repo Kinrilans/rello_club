@@ -9,7 +9,9 @@
     "dev:watcher": "node watchers/tron.js",
     "dev:engine": "node scripts/payout_engine_mock.js",
     "dev:eod": "node scripts/eod_engine_mock.js",
-    "dev:ops": "node scripts/ops_alerts_mock.js"
+    "dev:ops": "node scripts/ops_alerts_mock.js",
+    "db:backup:sh": "bash scripts/backup_db.sh",
+    "db:backup:ps": "powershell -ExecutionPolicy Bypass -File scripts/backup_db.ps1"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
