@@ -1,0 +1,112 @@
+{
+  "ru": {
+    "common": {
+      "lang_set": "Язык интерфейса: русский",
+      "choose_action": "Выберите действие:",
+      "error": "Ошибка. Попробуйте ещё раз.",
+      "ok": "Готово."
+    },
+    "club": {
+      "start_title": "Rello Club — онбординг компании",
+      "start_hint": "Команды: /profile, /wallets, /wallet_add <TRON_ADDRESS>, /trust_request <partner_slug>, /lang <ru|en>",
+      "profile": "Компания: {name}\nSlug: {slug}\nСтатус: {status}\nТаймзона: {tz}",
+      "wallets_empty": "Адресов в allow-list пока нет.",
+      "wallets_list_title": "Адреса (allow-list):",
+      "wallet_add_ok": "Адрес добавлен в allow-list.",
+      "wallet_add_bad": "Адрес TRON некорректен. Пример: T... (Base58, длина 26–35).",
+      "trust_requested": "Запрос доверительной пары отправлен (status=proposed).",
+      "trust_exists": "Такая пара уже существует.",
+      "partner_not_found": "Компания с таким slug не найдена."
+    },
+    "deal": {
+      "start_title": "DealDesk — офферы и сделки",
+      "start_hint": "Команды: /offers, /offer_new <in|out> <amount>, /offer_accept <offer_id>, /my_deals, /feed",
+      "offers_empty": "Офферов пока нет.",
+      "offer_created": "Оффер создан: {id}",
+      "offer_bad_args": "Формат: /offer_new <in|out> <amount_token>\nНапр.: /offer_new in 100",
+      "offer_bad_amount": "Сумма должна быть положительным числом.",
+      "offer_not_found": "Оффер не найден или неактивен.",
+      "offer_own": "Нельзя принять собственный оффер.",
+      "deal_created": "Сделка создана: {id}\nСтатус: proposed (демо).",
+      "feed_empty": "Подходящих активных офферов нет.",
+      "accept_btn": "Принять",
+      "accepted": "Принято. Создана сделка: {id}"
+    },
+    "treasury": {
+      "start_title": "Treasury — выплаты и EOD (mock)",
+      "start_hint": "Команды: /payouts, /incoming, /stats, /lang <ru|en>",
+      "payouts_empty": "Очередь выплат пуста.",
+      "incoming_empty": "Входящих пока нет.",
+      "stats": "Incoming: total={in_total} confirmed={in_conf}\nPayouts: active={out_q} confirmed={out_c}",
+      "menu_payouts": "Очередь выплат",
+      "menu_incoming": "Последние входящие",
+      "menu_stats": "Сводка"
+    },
+    "menu": {
+      "profile": "Профиль",
+      "wallets": "Адреса",
+      "wallet_add": "Добавить адрес",
+      "trust_request": "Trust-пара",
+      "feed": "Лента офферов",
+      "offers": "Мои офферы",
+      "my_deals": "Мои сделки",
+      "lang_ru": "Русский",
+      "lang_en": "English"
+    }
+  },
+  "en": {
+    "common": {
+      "lang_set": "Interface language: English",
+      "choose_action": "Choose an action:",
+      "error": "Error. Please try again.",
+      "ok": "Done."
+    },
+    "club": {
+      "start_title": "Rello Club — company onboarding",
+      "start_hint": "Commands: /profile, /wallets, /wallet_add <TRON_ADDRESS>, /trust_request <partner_slug>, /lang <ru|en>",
+      "profile": "Company: {name}\nSlug: {slug}\nStatus: {status}\nTimezone: {tz}",
+      "wallets_empty": "No allow-listed addresses yet.",
+      "wallets_list_title": "Addresses (allow-list):",
+      "wallet_add_ok": "Address added to allow-list.",
+      "wallet_add_bad": "Invalid TRON address. Example: T... (Base58, length 26–35).",
+      "trust_requested": "Trust pair request sent (status=proposed).",
+      "trust_exists": "Such pair already exists.",
+      "partner_not_found": "Company with this slug not found."
+    },
+    "deal": {
+      "start_title": "DealDesk — offers & deals",
+      "start_hint": "Commands: /offers, /offer_new <in|out> <amount>, /offer_accept <offer_id>, /my_deals, /feed",
+      "offers_empty": "No offers yet.",
+      "offer_created": "Offer created: {id}",
+      "offer_bad_args": "Format: /offer_new <in|out> <amount_token>\nE.g.: /offer_new in 100",
+      "offer_bad_amount": "Amount must be a positive number.",
+      "offer_not_found": "Offer not found or inactive.",
+      "offer_own": "You cannot accept your own offer.",
+      "deal_created": "Deal created: {id}\nStatus: proposed (demo).",
+      "feed_empty": "No active matching offers.",
+      "accept_btn": "Accept",
+      "accepted": "Accepted. Deal created: {id}"
+    },
+    "treasury": {
+      "start_title": "Treasury — payouts & EOD (mock)",
+      "start_hint": "Commands: /payouts, /incoming, /stats, /lang <ru|en>",
+      "payouts_empty": "Payout queue is empty.",
+      "incoming_empty": "No incoming yet.",
+      "stats": "Incoming: total={in_total} confirmed={in_conf}\nPayouts: active={out_q} confirmed={out_c}",
+      "menu_payouts": "Payouts",
+      "menu_incoming": "Incoming",
+      "menu_stats": "Stats"
+    },
+    "menu": {
+      "profile": "Profile",
+      "wallets": "Addresses",
+      "wallet_add": "Add address",
+      "trust_request": "Trust pair",
+      "feed": "Offer feed",
+      "offers": "My offers",
+      "my_deals": "My deals",
+      "lang_ru": "Русский",
+      "lang_en": "English"
+    }
+  }
+}

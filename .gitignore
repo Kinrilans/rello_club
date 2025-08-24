@@ -1,0 +1,20 @@
+# Node
+node_modules/
+npm-debug.log*
+.pnpm-debug.log*
+*.log
+logs/
+
+# Env & local config
+.env
+.env.*.local
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Optional: build artifacts (если появятся)
+dist/
+coverage/
